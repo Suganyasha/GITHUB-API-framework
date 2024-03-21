@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Github">
+	<listeners> <listener class-name="github.api.listeners.TestEventListenersUtility"></listener></listeners>
+  <test thread-count="5" name="Test apitest">
+    <classes>
+      <class name="github.api.CRUD.validation"/>
+    </classes>
+  </test> <!-- Test apitest -->
+</suite> <!-- Suite Github -->
